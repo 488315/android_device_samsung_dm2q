@@ -4,6 +4,31 @@
 vendor/etc/audconf/OPEN/acdb_cal.acdb
 vendor/etc/audconf/OPEN/workspaceFileXml.qwsp
 
+# Audio
+vendor/lib64/lib_lvacfs.so
+
+# Audio Firmware
+vendor/firmware/cs35l43-bot-dsp1-spk-prot.bin
+vendor/firmware/cs35l43-bot-dsp1-spk-prot.wmfw
+vendor/firmware/cs35l43-rcv-dsp1-spk-prot.bin
+vendor/firmware/cs35l43-rcv-dsp1-spk-prot.wmfw
+vendor/firmware/cs40l26-a2h.bin
+vendor/firmware/cs40l26-calib.bin
+vendor/firmware/cs40l26-calib.wmfw
+vendor/firmware/cs40l26-dvl.bin
+vendor/firmware/cs40l26-svc.bin
+vendor/firmware/cs40l26-svc1.bin
+vendor/firmware/cs40l26-svc2.bin
+vendor/firmware/cs40l26-svc3.bin
+vendor/firmware/cs40l26-wt1.bin
+vendor/firmware/cs40l26-wt2.bin
+vendor/firmware/cs40l26-wt3.bin
+vendor/firmware/cs40l26.bin
+vendor/firmware/cs40l26.wmfw
+
+# Haptics
+vendor/etc/audio_effects_haptic.xml
+
 # Audio configs
 vendor/etc/audio/sku_kalama/mixer_paths.xml
 vendor/etc/dolby/dax-default.xml
@@ -145,6 +170,52 @@ vendor/lib64/libthirdparty_zoomtranslator_imp.so
 vendor/lib64/libtriplecam_image_optical_zoom.so
 vendor/lib64/libtriplecam_optical_zoom_control.so
 vendor/lib64/libtriplecam_video_optical_zoom.so
+vendor/etc/portrait_data/single_portrait_feature_unihal.json
+vendor/etc/str/str_preference_data.dat
+vendor/lib64/camera/com.samsung.tuned.lsi_s5k3lu.bin
+vendor/lib64/camera/com.samsung.tuned.sony_imx564.bin
+vendor/lib64/lib_SamsungRec_08020.so
+vendor/lib64/libAIMFISP_core.camera.samsung.so
+vendor/lib64/libAIMFISP.camera.samsung.so
+vendor/lib64/libAImode_wrapper.camera.samsung.so
+vendor/lib64/libAIphoto_core.camera.samsung.so
+vendor/lib64/libauto_framing_lite.uniplugin@1.0.so
+vendor/lib64/libBarcodeReader.vendor.quram.so
+vendor/lib64/libbeauty_preview.uniplugin@1.0.so
+vendor/lib64/libBeauty_v4.camera.samsung.so
+vendor/lib64/libbeautyshot.arcsoft.so
+vendor/lib64/libDocumentDetector.uniplugin@1.0.so
+vendor/lib64/libdualcam_refocus_image.so
+vendor/lib64/libfrc_quram.uniplugin@1.0.so
+vendor/lib64/libfrc.quram.so
+vendor/lib64/libIDDQD_core.so
+vendor/lib64/libiddqd.uniplugin@1.0.so
+vendor/lib64/libImageSegmenter_v1.camera.samsung.so
+vendor/lib64/libjump_shot.uniplugin@1.0.so
+vendor/lib64/liblivefocus_capture_engine.so
+vendor/lib64/liblivefocus_capture_interface.so
+vendor/lib64/liblivefocus_preview_engine.so
+vendor/lib64/liblivefocus_preview_interface.so
+vendor/lib64/liblocaltm_capture.uniplugin@1.0.so
+vendor/lib64/libLocalTM_preview_core.so
+vendor/lib64/libmcaimegpuSSM.samsung.so
+vendor/lib64/libMotionEstimator.camera.samsung.so
+vendor/lib64/libMotionEstimator.uniplugin@1.0.so
+vendor/lib64/libMotionEstimatorWrapper.camera.samsung.so
+vendor/lib64/libndfilter_preview.uniplugin@1.0.so
+vendor/lib64/libPortraitSolution.camera.samsung_preview.so
+vendor/lib64/libQrDetector.uniplugin@1.0.so
+vendor/lib64/libQRInterface.camera.samsung.so
+vendor/lib64/libsingle_portrait_preview.uniplugin@1.0.so
+vendor/lib64/libsmartfocus.uniplugin@1.0.so
+vendor/lib64/libSSM_AutoTrigger.so
+vendor/lib64/libSSMAutoTrigger_interface.so
+vendor/lib64/libSWNDFilterPreview.camera.samsung.so
+vendor/lib64/libTetraMFP10.camera.samsung.so
+vendor/lib64/libTetraMFP10Tuning.camera.samsung.so
+vendor/lib64/libUniScaler.uniplugin@1.0.so
+vendor/lib64/libzoomroi_lite.samsung.so
+vendor/lib64/libzoomroi.samsung.so
 
 # Camera firmware
 vendor/firmware/CAMERA_ICP.b20
@@ -167,13 +238,54 @@ vendor/firmware/a740_zap.mbn
 vendor/firmware/a740_zap.mdt
 
 # NFC
+vendor/bin/hw/nxp.android.hardware.nfc@1.2-service
+vendor/etc/init/nxp.android.hardware.nfc@1.2-service.rc
+vendor/etc/libese-nxp.conf
+vendor/etc/libnfc-nxp.conf
 vendor/etc/nfc/libnfc-nxp_RF.conf
+vendor/etc/vintf/manifest/nxp.android.hardware.nfc@1.2-service.xml
+vendor/lib64/ese_spi_nxp.so
+vendor/lib64/nfc_nci_nxpsn.so
+vendor/lib64/vendor.samsung.hardware.nfc@2.0.so
+
+# Secure element
+vendor/bin/hw/android.hardware.secure_element@1.2-service
+vendor/etc/init/android.hardware.secure_element@1.2-service.rc
+
 
 # RIL
+vendor/bin/hw/rild
 vendor/etc/init/init.vendor.onebinary.rc|b3fab964774039b1f2f6eabf821556919b26369f
 vendor/etc/init/init.vendor.rilcommon.rc
 vendor/etc/init/vendor.samsung.rilchip.qcom.rc
 vendor/etc/init/vendor.samsung.rild.rc
+vendor/etc/locale/plmn_delta_eng.bin
+vendor/etc/locale/plmn_delta_zh-rCN.bin
+vendor/etc/locale/plmn_delta_zh-rHK.bin
+vendor/etc/locale/plmn_delta_zh-rTW.bin
+vendor/etc/mtu-conf.xml
+vendor/etc/pdpcnt-conf.xml
+vendor/etc/plmn_delta_attaio.bin|751a1c7105f1c03fc196689c2a71e2c69aa14e1f
+vendor/etc/plmn_delta_hktw.bin
+vendor/etc/plmn_delta_usagsm.bin|9a25ec9e9da16ed2f8a9db07f037fe08283b24e5
+vendor/etc/plmn_delta.bin|dbcc4d73dca31bd132b042e36be988701c42a552
+vendor/etc/plmn_se13.bin
+vendor/etc/qms_log_config
+vendor/etc/sec_config_oem
+vendor/lib64/libril_sem.so
+vendor/lib64/libsec_semRil.so
+vendor/lib64/libsec-ril.so
+vendor/lib64/libSemDataProps.so
+vendor/lib64/libSemTelephonyProps.so
+vendor/lib64/vendor.samsung.hardware.radio-V1-ndk.so
+vendor/lib64/vendor.samsung.hardware.radio.bridge-V1-ndk.so
+vendor/lib64/vendor.samsung.hardware.radio.channel-V1-ndk.so
+vendor/lib64/vendor.samsung.hardware.radio.data-V1-ndk.so
+vendor/lib64/vendor.samsung.hardware.radio.messaging-V1-ndk.so
+vendor/lib64/vendor.samsung.hardware.radio.sim-V1-ndk.so
+
+# Hermes
+vendor/etc/secnvm/k250a_47000304_c.img
 
 # Sensors config
 vendor/etc/sensors/config/kailua_ak991x_1.json
@@ -183,6 +295,7 @@ vendor/etc/sensors/config/kailua_ak991x_8.json
 vendor/etc/sensors/config/kailua_lsm6dso_0_1.json
 vendor/etc/sensors/config/kailua_lsm6dso_0_2.json
 vendor/etc/sensors/config/kailua_stk3a9x_0.json
+vendor/etc/sensors/config/kailua_lps22hh_0.json
 
 # Sensors
 vendor/bin/factory.ssc
@@ -223,6 +336,7 @@ vendor/firmware/hpnv21g.bb7
 vendor/firmware/hpnv21g.bb9
 vendor/firmware/hpnv21g.bin
 vendor/firmware/mfc/mfc_fw_flash_s2miw04.bin
+vendor/firmware/mfc/mfc_fw_flash_cps4038.bin
 
 # Wifi firmware
 vendor/firmware/Data.msc
